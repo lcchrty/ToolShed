@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import Popup from "reactjs-popup";
-import ReservationForm from "./ReservationForm.jsx";
+import ReservationForm from "./reservation-modal/ReservationForm.jsx";
 
 const Listing = ({ searchResults }) => {
   const navigate = useNavigate();

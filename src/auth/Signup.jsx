@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import TextInput from "../ui-components/FormInput.jsx";
-import SubmitButton from "../ui-components/FormSubmit.jsx";
+import TextInput from "./FormInput.jsx";
+import SubmitButton from "./FormSubmit.jsx";
 
 const Signup = () => {
   const navigate = useNavigate();

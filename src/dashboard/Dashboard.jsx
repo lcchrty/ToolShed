@@ -1,6 +1,5 @@
 import React, { useState, Component, useEffect } from "react";
-import Navbar from "./Navbar.jsx";
-import Profile from "./Profile.jsx";
+import Navbar from "../ui-components/Navbar.jsx";
 import Listing from "./DashboardListing.jsx";
 //import anything else we need in dashboard
 

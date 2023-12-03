@@ -1,7 +1,7 @@
 import React, { Component, useEffect, useState } from "react";
-import Navbar from "./Navbar.jsx";
-import Listing from "./Listing.jsx";
-import Reservation from "./Reservation.jsx";
+import Navbar from "../ui-components/Navbar.jsx";
+import Listing from "./tools/Listing.jsx";
+import Reservation from "./reservation/UserReservationCard.jsx";
 
 const Profile = () => {
   const [listings, setListings] = useState([]);
